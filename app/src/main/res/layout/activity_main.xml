@@ -48,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textColor="@color/primary"
+        android:textColor="@color/background"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.618" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvDateEntered"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -69,10 +69,11 @@
         app:layout_constraintVertical_bias="0.455" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvFinalMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="In minutes"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
