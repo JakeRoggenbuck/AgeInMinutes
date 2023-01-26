@@ -1,4 +1,5 @@
 # AgeInMinutes
+A basic Kotlin app to test out android development with Kotlin.
 
 ## First view
 ![View 1](https://github.com/JakeRoggenbuck/AgeInMinutes/blob/main/images/view1.png)
